@@ -1,41 +1,32 @@
 * {
-    padding: 0; 
-    margin: 0;
-    /* display: grid; */
-    /* justify-content: center; */
-   
-}
-
-.card-wrapper {
-    
-   
+  padding: 0;
+  margin: 0;
 }
 
 .card-envelope {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
-    justify-content: center;
-    gap: 20px;
-    margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
 }
 
 .card-wrapper {
-
-    display: grid;
-    width: 319px;
-    border: 1px solid #ccc;
-    -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-  box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-    padding-bottom: 15px;
+  display: grid;
+  width: 319px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  padding-bottom: 15px;
 }
 
 .thumbnail {
-    width: 100%;
-    height: 270px;
-    padding-bottom: 15px;
+  width: 100%;
+  height: 270px;
+  padding-bottom: 15px;
 }
 
 .card-text {
-    padding: 5px;
+  padding: 5px;
 }
